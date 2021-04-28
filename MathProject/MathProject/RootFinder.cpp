@@ -1,24 +1,10 @@
 #include <stdio.h>
 #include <iostream>
+#include "MyMath.h"
 using namespace std;
 
 
-class MyMath
-{
-public:
-	double Divide(double x,double  y);
-	
-};
 
-double MyMath::Divide(double x,double y)
-{
-	// Validate parameter:
-	if (y == 0.0)
-	{
-		throw std::out_of_range("Can't divide by zero");
-	}
-	return x / y;
-}
 
 int main()
 {
