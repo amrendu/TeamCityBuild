@@ -8,5 +8,5 @@ double MyMath::Divide(double x, double y)
 	{
 		throw std::out_of_range("Can't divide by zero");
 	}
-	return x - y;
+	return x / y;
 }
